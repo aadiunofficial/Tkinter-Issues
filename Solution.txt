@@ -1,0 +1,4 @@
+Hey Guys!..
+I've Found the solution tkinter doesn't allow two different instances of *tkinter.Tk()* to exist simultaneously that's what was causing the problem
+To solve the issue use *tkinter.Toplevel()* instead of *tkinter.Tk()* in the windows you'll run after the main window..
+Hope It helps :)
